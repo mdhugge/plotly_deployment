@@ -139,7 +139,7 @@ function buildCharts(sample) {
       y: values,
       text: labels,
       mode: "markers",
-      marker: {size: values, color: values, colorscale: "Earth"}
+      marker: {size: values, color: ids, colorscale: "Earth"}
     }  
     ];  
 
